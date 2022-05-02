@@ -1,0 +1,178 @@
+// common values
+main {
+    display: flex;
+    background-color: white;
+    text-align: left;
+}
+
+.kurs .iconKurs,
+.fa-solid,
+.contact .fa-user {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+
+
+
+// Left
+
+.wrapperLeft {
+    flex: 1;
+    background-color: $colorLagun;
+    color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        margin-left: 55px;
+    }
+}
+
+
+.wrapperLeft {
+    .photo {
+        img {
+            width: 100%;
+        }
+    }
+
+    section {
+        margin-left: 25px;
+        padding-bottom: 20px;
+    }
+
+    .github {
+      
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 40px 0;
+
+        span {
+            color: $colorWhite;
+        }
+
+        .fa-github {
+            position: absolute;
+            text-align: center;
+            font-size: 90px;
+            color: $colorWhite;
+            opacity: 0.5;
+            top: calc(50% );
+            left: calc(50% );
+            transform: translate(-50%, -50%);
+
+        }
+    }
+
+    .dateBirth {
+        text-transform: none;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: $colorYellow;
+    }
+}
+
+.fa-solid,
+.contact .fa-user {
+    color: $colorLagun;
+    background-color: $colorWhite;
+
+}
+
+.contact i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.contact p {
+    margin-left: 25px;
+    line-height: 35px;
+
+}
+
+.contact>.dane {
+    margin-left: 40px;
+}
+
+
+//Right
+
+
+
+.wrapperRight {
+
+    flex: 2;
+    padding: 40px 5px 0px 5px;
+
+    .kurs>ul {
+        list-style: none;
+        @include text(null, 700, $colorLagun);
+
+        .purpleText {
+            @include text(null, 700, $colorText);
+        }
+
+        .bi-code-slash {
+            color: $colorYellow;
+
+        }
+
+        li {
+            line-height: 30px;
+            padding-left: 40px;
+        }
+    }
+
+    .fa-laptop-code,
+    .fa-graduation-cap,
+    .fa-briefcase {
+        color: $colorWhite;
+        background-color: $colorLagun;
+    }
+
+    .nameAndData {
+        display: flex;
+    }
+
+    h3,
+    .nameAndData {
+        color: $colorLagun;
+    }
+
+    h4,
+    h5,
+    h6 {
+        padding-left: 40px;
+    }
+
+    h3 {
+        line-height: 60px;
+        padding-left: 20px;
+    }
+
+    h4 {
+        text-decoration: underline solid $colorYellow;
+        padding-top: 20px;
+    }
+
+    h6 {
+        font-size: 15px;
+        text-align: justify;
+
+    }
+}

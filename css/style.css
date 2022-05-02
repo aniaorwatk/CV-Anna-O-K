@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 900px;
+}
+
+.wrapper {
+  background-color: #ffff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffff;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #136569;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+header h1 p {
+  text-transform: none;
+  font-size: 48px;
+}
+
+.name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.name h1 {
+  padding-right: 30px;
+}
+
+.cv {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: left;
+}
+
+.cv h1 {
+  border-left: 3px solid #136569;
+  padding-left: 30px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  text-align: left;
+}
+
+.kurs .iconKurs,
+.fa-solid,
+.contact .fa-user {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+.wrapperLeft {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #136569;
+  color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapperLeft ul {
+  margin-left: 55px;
+}
+
+.wrapperLeft .photo img {
+  width: 100%;
+}
+
+.wrapperLeft section {
+  margin-left: 25px;
+  padding-bottom: 20px;
+}
+
+.wrapperLeft .github {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.wrapperLeft .github span {
+  color: #ffff;
+}
+
+.wrapperLeft .github .fa-github {
+  position: absolute;
+  text-align: center;
+  font-size: 90px;
+  color: #ffff;
+  opacity: 0.5;
+  top: calc(50%);
+  left: calc(50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrapperLeft .dateBirth {
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.wrapperLeft h3 {
+  color: #E4B23B;
+}
+
+.fa-solid,
+.contact .fa-user {
+  color: #136569;
+  background-color: #ffff;
+}
+
+.contact i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.contact p {
+  margin-left: 25px;
+  line-height: 35px;
+}
+
+.contact > .dane {
+  margin-left: 40px;
+}
+
+.wrapperRight {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 40px 5px 0px 5px;
+}
+
+.wrapperRight .kurs > ul {
+  list-style: none;
+  font-weight: 700;
+  color: #136569;
+}
+
+.wrapperRight .kurs > ul .purpleText {
+  font-weight: 700;
+  color: #771f64;
+}
+
+.wrapperRight .kurs > ul .bi-code-slash {
+  color: #E4B23B;
+}
+
+.wrapperRight .kurs > ul li {
+  line-height: 30px;
+  padding-left: 40px;
+}
+
+.wrapperRight .fa-laptop-code,
+.wrapperRight .fa-graduation-cap,
+.wrapperRight .fa-briefcase {
+  color: #ffff;
+  background-color: #136569;
+}
+
+.wrapperRight .nameAndData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapperRight h3,
+.wrapperRight .nameAndData {
+  color: #136569;
+}
+
+.wrapperRight h4,
+.wrapperRight h5,
+.wrapperRight h6 {
+  padding-left: 40px;
+}
+
+.wrapperRight h3 {
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+.wrapperRight h4 {
+  -webkit-text-decoration: underline solid #E4B23B;
+          text-decoration: underline solid #E4B23B;
+  padding-top: 20px;
+}
+
+.wrapperRight h6 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #FDDB7D;
+  padding: 20px 20px 20px 40px;
+}
+
+footer p {
+  font-size: 11px;
+  font-weight: 600;
+  color: #133648;
+  border-left: 3px solid #E4B23B;
+  padding-left: 10px;
+  text-align: left;
+  font-style: italic;
+}
+
+@media (max-width: 400px) {
+  main .wrapperLeft .contact p {
+    font-weight: 700;
+    padding-left: 5px;
+  }
+  main .wrapperLeft > section ul {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 607px) {
+  .name > h1,
+  .name > h1 > p,
+  .textCv {
+    font-size: 30px;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapperLeft .contact p {
+    font-weight: 700;
+    padding-left: 55px;
+  }
+  .wrapperLeft > section ul {
+    padding-left: 55px;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cv > .textCv {
+    text-align: center;
+    border-left: none;
+    border-bottom: solid 2px;
+    padding: 20px;
+  }
+  .name > h1,
+  .name > h1 > p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 732px) {
+  .wrapperRight > h3,
+  .wrapperRight > h4,
+  .wrapperRight > h5,
+  .wrapperRight > h6 {
+    margin-left: 0;
+    padding-left: 2px;
+  }
+  .wrapperRight > .kurs > ul > li {
+    padding-left: 2px;
+    text-align: justify;
+  }
+  .wrapperRight > .kurs > h3 {
+    padding-left: 2px;
+  }
+}
+
+@media (max-width: 752px) {
+  .wrapperLeft .contact p {
+    font-size: 14px;
+    margin-left: 0;
+  }
+  .wrapperLeft > section ul {
+    margin-left: 10px;
+  }
+  .wrapperRight > .nameAndData {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 794px) {
+  header > .name > h1 > p,
+  .textCv {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 896px) {
+  .name > h1,
+  .name > h1 > p {
+    font-size: 42px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

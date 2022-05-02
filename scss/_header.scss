@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    background-color: $colorWhite;
+
+    
+    
+}
+
+header h1{
+    @include text($size_xl, 700, $colorLagun);
+    text-transform: uppercase;
+    margin: 10px 0px;
+    p{
+        text-transform: none;
+        font-size: 48px;
+    }
+}
+
+.name{
+    flex: 1;
+    text-align: right;
+    padding-left: 10px;
+
+    h1{
+        padding-right: 30px;
+    }
+}
+
+.cv{
+    flex: 1;
+    text-align: left;
+   h1{
+      border-left: 3px solid $colorLagun;
+      padding-left: 30px;
+   }
+    
+}
+
+
+
+
+

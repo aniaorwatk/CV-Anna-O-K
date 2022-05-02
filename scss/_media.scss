@@ -1,0 +1,128 @@
+@media (max-width: 400px){
+    main .wrapperLeft .contact p {
+       
+        font-weight: 700;
+        padding-left: 5px;
+    }
+
+    main .wrapperLeft>section ul {
+      padding-left: 5px;
+        
+    }
+}
+
+
+
+@media (max-width: 607px) {
+
+    .name>h1,
+    .name>h1>p,
+    .textCv {
+        font-size: 30px;
+    }
+
+    main {
+        flex-direction: column;
+
+    }
+
+    .wrapperLeft .contact p {
+        font-weight: 700;
+        padding-left: 55px;
+    }
+
+    .wrapperLeft>section ul {
+      padding-left: 55px;
+        
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+
+    header {
+        flex-direction: column-reverse;
+    }
+
+    .cv>.textCv {
+        text-align: center;
+        border-left: none;
+        border-bottom: solid 2px;
+        padding: 20px;
+
+    }
+
+    .name>h1,
+    .name>h1>p {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 732px) {
+
+
+    .wrapperRight>h3,
+    .wrapperRight>h4,
+    .wrapperRight>h5,
+    .wrapperRight>h6 {
+
+        margin-left: 0;
+        padding-left: 2px;
+
+    }
+
+    .wrapperRight>.kurs>ul>li {
+        padding-left: 2px;
+        text-align: justify;
+    }
+
+    .wrapperRight>.kurs>h3 {
+        padding-left: 2px;
+    }
+
+
+
+
+}
+
+@media (max-width: 752px) {
+    .wrapperLeft .contact p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .wrapperLeft>section ul {
+      margin-left: 10px;
+        
+    }
+
+    .wrapperRight>.nameAndData {
+
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 794px) {
+
+    header>.name>h1>p,
+    .textCv {
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 896px) {
+
+    .name>h1,
+    .name>h1>p {
+        font-size: 42px;
+    }
+}

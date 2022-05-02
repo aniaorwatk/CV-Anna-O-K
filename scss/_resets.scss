@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+display: flex;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+margin: 0 auto; 
+min-height: 100vh;
+max-width: 900px;
+
+}
+
+.wrapper{
+  
+  background-color:$colorWhite;
+  
+  
+}

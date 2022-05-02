@@ -1,0 +1,12 @@
+footer{
+    background-color: $colorDown;
+    padding: 20px 20px 20px 40px;
+}
+
+footer p{
+    @include text($size_sm, 600, $colorGreenText );
+   border-left: 3px solid $colorYellow;
+   padding-left: 10px;
+   text-align: left;
+   font-style: italic;  
+}
